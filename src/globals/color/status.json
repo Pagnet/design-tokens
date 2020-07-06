@@ -1,0 +1,21 @@
+{
+  "color": {
+    "status": {
+      "positive": {
+        "pure": { "value": "#3DCC64", "category": "background-color" },
+        "up": { "value": "#D7FAE0", "category": "background-color" },
+        "down": { "value": "#1C9E3F", "category": "background-color" }
+      },
+      "neutral": {
+        "pure": { "value": "#FFA347", "category": "background-color" },
+        "up": { "value": "#FFE8D1", "category": "background-color" },
+        "down": { "value": "#FA8714", "category": "background-color" }
+      },
+      "negative": {
+        "pure": { "value": "#F5456E", "category": "background-color" },
+        "up": { "value": "#FFEDF1", "category": "background-color" },
+        "down": { "value": "#E00D3F", "category": "background-color" }
+      }
+    }
+  }
+}

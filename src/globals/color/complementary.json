@@ -1,0 +1,10 @@
+{
+  "color": {
+    "complementary": {
+      "pure": { "value": "#13BDBD", "category": "background-color" },
+      "up": { "value": "#B0F5F5", "category": "background-color" },
+      "down": { "value": "#6AE5E5", "category": "background-color" },
+      "deep": { "value": "#1C9999", "category": "background-color" }
+    }
+  }
+}

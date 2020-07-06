@@ -1,0 +1,12 @@
+{
+  "border": {
+    "radius": {
+      "none": { "value": 0, "category": "size" },
+      "sm": { "value": 4, "category": "size" },
+      "md": { "value": 8, "category": "size" },
+      "lg": { "value": 16, "category": "size" },
+      "pill": { "value": 500, "category": "size" },
+      "circular": { "value": "50%", "category": "size" }
+    }
+  }
+}

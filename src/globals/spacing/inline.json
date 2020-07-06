@@ -1,0 +1,15 @@
+{
+  "spacing": {
+    "inline": {
+      "xxxs": { "value": 4, "category": "spacing" },
+      "xxs": { "value": 8, "category": "spacing" },
+      "xs": { "value": 16, "category": "spacing" },
+      "sm": { "value": 24, "category": "spacing" },
+      "md": { "value": 32, "category": "spacing" },
+      "lg": { "value": 40, "category": "spacing" },
+      "xl": { "value": 48, "category": "spacing" },
+      "xxl": { "value": 64, "category": "spacing" },
+      "xxxl": { "value": 80, "category": "spacing" }
+    }
+  }
+}

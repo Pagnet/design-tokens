@@ -1,0 +1,12 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "pure": { "value": "#0025E0", "category": "background-color" },
+        "up": { "value": "#B8C3FF", "category": "background-color" },
+        "down": { "value": "#5872F5", "category": "background-color" },
+        "deep": { "value": "#0E248F", "category": "background-color" }
+      }
+    }
+  }
+}

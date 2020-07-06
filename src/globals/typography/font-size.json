@@ -1,0 +1,17 @@
+{
+  "font": {
+    "size": {
+      "xxxs": { "value": 12, "category": "font-size" },
+      "xxs": { "value": 14, "category": "font-size" },
+      "xs": { "value": 16, "category": "font-size" },
+      "sm": { "value": 20, "category": "font-size" },
+      "md": { "value": 24, "category": "font-size" },
+      "lg": { "value": 32, "category": "font-size" },
+      "xl": { "value": 40, "category": "font-size" },
+      "xxl": { "value": 48, "category": "font-size" },
+      "xxxl": { "value": 64, "category": "font-size" },
+      "display": { "value": 80, "category": "font-size" },
+      "giant": { "value": 96, "category": "font-size" }
+    }
+  }
+}

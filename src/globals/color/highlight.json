@@ -1,0 +1,10 @@
+{
+  "color": {
+    "highlight": {
+      "pure": { "value": "#FF726E", "category": "background-color" },
+      "up": { "value": "#FFB8B2", "category": "background-color" },
+      "down": { "value": "#F0584D", "category": "background-color" },
+      "deep": { "value": "#E53E32", "category": "background-color" }
+    }
+  }
+}

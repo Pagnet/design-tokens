@@ -1,0 +1,8 @@
+{
+  "font": {
+    "family": {
+      "base": { "value": "Nunito Sans", "category": "font-family" },
+      "highlight": { "value": "Avenir", "category": "font-family" }
+    }
+  }
+}

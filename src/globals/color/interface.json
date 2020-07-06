@@ -1,0 +1,18 @@
+{
+  "color": {
+    "interface": {
+      "light": {
+        "pure": { "value": "#FFFFFF", "category": "background-color" },
+        "up": { "value": "#F7F9FF", "category": "background-color" },
+        "down": { "value": "#EBECF5", "category": "background-color" },
+        "deep": { "value": "#D8DAE8", "category": "background-color" }
+      },
+      "dark": {
+        "pure": { "value": "#0C0D14", "category": "background-color" },
+        "up": { "value": "#B6B9CC", "category": "background-color" },
+        "down": { "value": "#67697A", "category": "background-color" },
+        "deep": { "value": "#393B47", "category": "background-color" }
+      }
+    }
+  }
+}

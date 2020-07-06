@@ -1,0 +1,10 @@
+{
+  "spacing": {
+    "squish": {
+      "xs": { "value": "4px 8px", "category": "spacing" },
+      "sm": { "value": "8px 16px", "category": "spacing" },
+      "md": { "value": "12px 24px", "category": "spacing" },
+      "lg": { "value": "16px 32px", "category": "spacing" }
+    }
+  }
+}

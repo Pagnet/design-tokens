@@ -1,0 +1,12 @@
+{
+  "spacing": {
+    "inset": {
+      "xxs": { "value": 4, "category": "spacing" },
+      "xs": { "value": 8, "category": "spacing" },
+      "sm": { "value": 16, "category": "spacing" },
+      "md": { "value": 24, "category": "spacing" },
+      "lg": { "value": 32, "category": "spacing" },
+      "xl": { "value": 40, "category": "spacing" }
+    }
+  }
+}

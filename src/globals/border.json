@@ -1,0 +1,11 @@
+{
+  "border": {
+    "width": {
+      "none": { "value": 0, "category": "size" },
+      "hairline": { "value": 1, "category": "size" },
+      "thin": { "value": 2, "category": "size" },
+      "thick": { "value": 4, "category": "size" },
+      "heavy": { "value": 8, "category": "size" }
+    }
+  }
+}
