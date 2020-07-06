@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><%
+var allProperties = _.each(allProperties, function(prop) {
+    if (prop.attributes.category === 'color') {
+        prop.tag = 'color';
+    } else if (['spacing', 'font-line-height', 'font-size'].includes(prop.category)) {
+        prop.tag = 'dimen';
+    } else if (prop.attributes.category === 'time' || prop.attributes.category === 'opacity' || prop.attributes.category === 'multiplier') {
+        prop.tag = 'double';
+    } else if (prop.attributes.category === 'content') {
+        prop.tag = 'string';
+    } else if (prop.category === 'font-weight') {
+        prop.tag = 'integer';
+    } else if (prop.category === 'font-family') {
+        prop.tag = 'string';
+    } else {
+        prop.tag = 'item';
+    }
+}); %>
+<resources>
+<% _.each(allProperties, function(prop) {
+    // Notice: this is an alternative way to use Lodash templating syntax,
+    // that uses string concatenation and the print() function to have
+    // more control over the indentation, whitespace, newlines, etc.
+    var output = "";
+    output += "\t<" + prop.tag + " name=\"" + prop.name + "\" category=\"" + prop.category + "\">";
+    output += prop.value;
+    output += "</" + prop.tag + ">";
+    if(prop.comment) {
+    output += "<!-- " + prop.comment + " -->";
+    }
+    output += "\n";
+    print(output);
+});
+%></resources>

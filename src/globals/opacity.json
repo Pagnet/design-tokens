@@ -1,11 +1,11 @@
 {
   "opacity": {
     "level": {
-      "semiopaque": { "value": 0.8 },
-      "intense": { "value": 0.64 },
-      "medium": { "value": 0.4 },
-      "light": { "value": 0.16 },
-      "semitransparent": { "value": 0.08 }
+      "semiopaque": { "value": 0.8, "category": "opacity" },
+      "intense": { "value": 0.64, "category": "opacity" },
+      "medium": { "value": 0.4, "category": "opacity" },
+      "light": { "value": 0.16, "category": "opacity" },
+      "semitransparent": { "value": 0.08, "category": "opacity" }
     }
   }
 }
