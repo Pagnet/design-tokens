@@ -11,6 +11,13 @@ StyleDictionaryPackage.registerFormat({
   ),
 });
 
+StyleDictionaryPackage.registerFormat({
+  name: 'custom/swift',
+  formatter: _.template(
+    fs.readFileSync(__dirname + '/templates/class.swift.template')
+  ),
+});
+
 function getStyleDictionaryConfig(platform) {
   return {
     source: ['src/globals/**/*.json', `src/platforms/${platform}/*.json`],
@@ -42,7 +49,14 @@ function getStyleDictionaryConfig(platform) {
         buildPath: 'dist/ios/',
         files: [
           {
-            destination: 'tokens.swift',
+            destination: 'tokens-color.swift',
+            format: 'custom/swift',
+            className: 'TokensColor',
+            filter: (prop) => prop.attributes.category === 'color',
+            options: { showFileHeader: false },
+          },
+          {
+            destination: 'tokens-all.swift',
             format: 'ios-swift/class.swift',
             className: 'DesignTokens',
             options: { showFileHeader: false },
